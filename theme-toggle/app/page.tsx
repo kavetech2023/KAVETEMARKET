@@ -17,12 +17,7 @@ export default function Home() {
       {/* Logo centered at the top */}
       <div className="w-full flex justify-center pt-6">
         <div className="flex flex-col items-center gap-1">
-          <div className="relative w-12 h-12">
-            <div className="absolute inset-0 bg-gradient-to-br from-amber-100 to-amber-200 dark:from-amber-200 dark:to-amber-300 rounded-full opacity-80 shadow-md"></div>
-            <span className="absolute inset-0 flex items-center justify-center text-amber-800 dark:text-amber-900 text-lg font-semibold">
-              K
-            </span>
-          </div>
+     
           <span className="text-gray-700 dark:text-gray-300 text-sm font-medium mt-1">kavete.org</span>
         </div>
       </div>
